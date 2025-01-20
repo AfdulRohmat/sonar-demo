@@ -3,6 +3,6 @@ run in powershell
 docker run --rm `
     --network sonar-demo_sonar-network `
     -e SONAR_HOST_URL="http://sonarqube:9000" `
-    -e SONAR_LOGIN="sqp_3c9921b30f72ad1559b84ade2b452edcad478824" `
+    -e SONAR_LOGIN="your_project_token" `
     -v ${PWD}:/usr/src `
     sonarsource/sonar-scanner-cli
